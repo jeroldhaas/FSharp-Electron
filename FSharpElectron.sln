@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{63297B98-5CED-492C-A5B7-A5B4F73CF142}"
 	ProjectSection(SolutionItems) = preProject
 		paket.dependencies = paket.dependencies
@@ -34,6 +35,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED8079DD
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpElectron.Tests", "tests\FSharpElectron.Tests\FSharpElectron.Tests.fsproj", "{AD09DDE3-8209-4BAA-ABD1-05B6B4A1BFC3}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ElectronFSharp", "src\ElectronFSharp\ElectronFSharp.njsproj", "{0C6F96A9-1544-4A64-8220-72141685A9A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +51,10 @@ Global
 		{AD09DDE3-8209-4BAA-ABD1-05B6B4A1BFC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD09DDE3-8209-4BAA-ABD1-05B6B4A1BFC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD09DDE3-8209-4BAA-ABD1-05B6B4A1BFC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6F96A9-1544-4A64-8220-72141685A9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6F96A9-1544-4A64-8220-72141685A9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6F96A9-1544-4A64-8220-72141685A9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6F96A9-1544-4A64-8220-72141685A9A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

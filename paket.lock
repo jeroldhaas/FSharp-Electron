@@ -8,6 +8,7 @@ NUGET
       FSharpVSPowerTools.Core (1.8.0)
     FSharpVSPowerTools.Core (1.8.0)
       FSharp.Compiler.Service (>= 0.0.87)
+    FunScript (1.1.94)
     Microsoft.Bcl (1.1.10)
       Microsoft.Bcl.Build (>= 1.0.14)
     Microsoft.Bcl.Build (1.0.21)
@@ -19,8 +20,13 @@ NUGET
     Octokit (0.14.0)
       Microsoft.Net.Http
     SourceLink.Fake (1.0.0)
+    WebSharper (3.4.9.188)
+    WebSharper.Compiler (3.4.9.188)
+      WebSharper (>= 3.4.9.188)
+    WebSharper.UI.Next (3.4.9.157)
+      WebSharper
 GITHUB
   remote: fsharp/FAKE
   specs:
-    modules/Octokit/Octokit.fsx (6d8d2222b7f0d2fcd0adc5acd231d2934294a709)
+    modules/Octokit/Octokit.fsx (c2037a43ffa69e9bf0d14cd464a23a6eb581104a)
       Octokit

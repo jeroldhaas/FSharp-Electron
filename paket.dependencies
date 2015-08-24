@@ -7,3 +7,8 @@ nuget FAKE
 nuget SourceLink.Fake
 
 github fsharp/FAKE modules/Octokit/Octokit.fsx
+
+nuget FunScript
+nuget WebSharper
+nuget WebSharper.Compiler
+nuget WebSharper.UI.Next

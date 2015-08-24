@@ -1,0 +1,22 @@
+{
+  "name": "ElectronFSharp",
+  "version": "0.0.0",
+  "description": "ElectronFSharp",
+  "main": "app.js",
+  "author": {
+    "name": "JeroldHaas",
+    "email": "jeroldhaas@gmail.com"
+  },
+  "dependencies": {
+    "browserify": "^11.0.1",
+    "electron-prebuilt": "^0.31.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "less": "^2.5.1",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-uglify": "^0.9.1"
+  }
+}
