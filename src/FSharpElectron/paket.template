@@ -1,0 +1,23 @@
+type project
+owners
+    JeroldHaas
+authors 
+    JeroldHaas
+projectUrl
+    http://github.com/jeroldhaas/FSharpElectron
+iconUrl
+    https://raw.githubusercontent.com/jeroldhaas/FSharpElectron/master/docs/files/img/logo.png
+licenseUrl
+    http://github.com/jeroldhaas/FSharpElectron/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    FSharp Electron WebSharper
+summary
+    Binding for WebSharper to Electron
+description
+    ...
+
+
